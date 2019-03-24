@@ -1,0 +1,426 @@
+html,body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Quicksand, sans-serif;
+}
+
+/* Internal link header fix */
+.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+header {
+    background: #696057;
+    height: 80px;
+    font-size: 1.5em;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 80px;
+    transition: 1s;
+}
+
+nav {
+    margin-right: 4%;
+    height: 80px;
+}
+
+#logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#homeLink {
+    border-radius: 30px;
+}
+
+#div1 { 
+    background: url(images/hero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(69, 60, 57, 0.7);
+    margin-top: 80px;
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+#div1 h1{
+    color: #FFFFFF;
+    font-size: 4em;
+    text-align: center;
+}
+
+#div1 h2{
+    color: #EEEEEE;
+    font-size: 3em;
+    text-align: center;
+}
+
+#textBox1 {
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+    position: fixed;
+    top: 250px;
+    text-align: center;
+}
+
+#div1 #submit {
+    margin-left: 0;
+}
+
+#div2 { 
+    background: url(images/about.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+#block2 {
+    background: #F3F3F3;
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+#textBox2 {
+    margin-right: 20%;
+}
+
+#text2 {
+    margin-left: 10%;
+}
+
+#textBox2 h1 {
+    color: #555555;
+    font-size: 3em;
+    text-align: right;
+}
+
+#textBox2 h2{
+    color: #444444;
+    font-size: 1.3em;
+    text-align: right;
+    transition: 0.5s;
+    line-height: 1.3em;
+    margin-top: 100px;
+}
+
+#div3 { 
+    background: url(images/events.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+#block3 {
+    background: #696057;
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+
+#textBox3 h1 {
+    color: #DDDDDD;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#textBox3 h2{
+    color: #DDDDDD;
+    font-size: 1.3em;
+    text-align: left;
+    transition: 0.5s;
+    line-height: 1.3em;
+    margin-top: 100px;
+}
+
+#text3 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+
+#text3 a{
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 0.3s;
+    padding: 0;
+}
+
+#textBox3 input{
+    margin: auto;
+    display: block;
+}
+
+#textBox3 form {
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+#div4 { 
+    background: url(images/guide.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+#block4 {
+    background: #F3F3F3;
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+#textBox4 h1 {
+    color: #555555;
+    font-size: 3em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+#textBox4 h2{
+    color: #444444;
+    font-size: 1.3em;
+    text-align: left;
+    transition: 0.5s;
+    line-height: 1.3em;
+    margin-top: 100px;
+}
+
+#text4 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
+
+#text4 a{
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 0.3s;
+    padding: 0;
+}
+
+#textBox4 input{
+    margin: auto;
+    display: block;
+    border-color: #444444;
+    background: #CCCCCC;
+    color: #444444;
+}
+
+#textBox4 form {
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+}
+
+#div5 { 
+    background: url(images/contact.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+#block5a {
+    width: 100%;
+    height: 160px;
+}
+
+#block5 {
+    background: rgba(69, 60, 57, 0.7);
+    height: 450px;
+    width: 100%;
+}
+
+#textBox5 {
+    margin-right: 10%;
+}
+
+#div5 form {
+    margin-left: 15%;
+    display: block;
+}
+
+#textBox5 h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+}
+
+#div5 label {
+    color: #FFFFFF;
+    font-size: 1.4em;
+    width: 90px;
+    display: inline-block;
+}
+
+.inp input {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.inp {
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#submit {
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: Quicksand, sans-serif;
+    font-size: 1.2em;
+    margin-left: 1.2em;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+footer {
+    background: #696057;
+    height: 150px;
+    width: 100%;
+    color: #BBBBBB;
+    text-align: center;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: 0.3s;
+    margin: 40px;
+}
+
+#space1 {
+    width: 100%;
+    height: 30px;
+}
+
+footer p {
+    margin-top: 40px;
+}
+
+.show h1, .show h2{
+    transition: 0.3s;
+}
+
+.hide, .hide h1, .hide h2, .hide a, .hide input{
+    border-color: rgba(255,255,255,0) !important;
+    background-color: rgba(255,255,255,0) !important;
+    color: rgba(0,0,0,0) !important;
+    transition: 0.3s;
+}
+
+.disappear {
+    top: -300px !important;
+    transition-delay: 0.3s;
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0);
+}
+
+h1:hover, h2:hover, footer p:hover {
+    cursor: default;
+}
+
+@media only screen and (max-width: 600px){
+    nav {
+        display: none;
+    }
+
+    header {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    #logo {
+        opacity: 0.3;
+    }
+
+    #div1 {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    #textBox1 {
+        top: 100px;
+    }
+
+    #block2, #block3, #block4 {
+        width: 100%;
+        height: 520px;
+    }
+
+    #textBox2 h2, #textBox3 h2, #textBox4 h2{
+        margin-top: 0;
+        font-size: 1em;
+    }
+
+    #div5 label {
+        width: 70px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    header a:hover {
+        color: #2e98c3;
+        transition: 1s;
+    }   
+
+    #text3 a:hover {
+        color: #EEEEEE;
+        transition: 0.3s;
+    }
+
+    #submit:hover {
+        border-color: #2e98c3;
+        color: #2e98c3;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    footer a:hover {
+        color: #2e98c3;
+        transition: 0.3s;
+    }
+}
