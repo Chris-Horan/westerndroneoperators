@@ -177,6 +177,7 @@ nav {
 
 #textBox3 input{
     margin: auto;
+    margin-top: 80px;
     display: block;
 }
 
@@ -205,14 +206,14 @@ nav {
 #textBox4 h1 {
     color: #555555;
     font-size: 3em;
-    text-align: left;
-    margin-left: 5%;
+    text-align: right;
+    margin-right: 20%;
 }
 
 #textBox4 h2{
     color: #444444;
     font-size: 1.3em;
-    text-align: left;
+    text-align: right;
     transition: 0.5s;
     line-height: 1.3em;
     margin-top: 100px;
@@ -220,7 +221,7 @@ nav {
 
 #text4 {
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 20%;
     display: block;
 }
 
@@ -234,6 +235,7 @@ nav {
 
 #textBox4 input{
     margin: auto;
+    margin-top: 150px;
     display: block;
     border-color: #444444;
     background: #CCCCCC;
